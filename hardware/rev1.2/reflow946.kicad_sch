@@ -9546,7 +9546,7 @@
 		(uuid "e84b3499-c7a4-4034-b052-17cf966477ba")
 	)
 	(label "SDA"
-		(at 20.32 162.56 0)
+		(at 41.91 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9556,7 +9556,7 @@
 		(uuid "1f9061b8-6f37-4893-92c1-fe22f6d1eeda")
 	)
 	(label "SCL"
-		(at 27.94 162.56 0)
+		(at 49.53 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9855,7 +9855,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 152.4) (xy 20.32 154.94)
+			(xy 41.91 152.4) (xy 41.91 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9865,7 +9865,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 154.94) (xy 27.94 154.94)
+			(xy 41.91 154.94) (xy 49.53 154.94)
 		)
 		(stroke
 			(width 0)
@@ -9874,13 +9874,13 @@
 		(uuid "35865175-3d98-4af7-aba9-c348d2a2ace5")
 	)
 	(junction
-		(at 20.32 154.94)
+		(at 41.91 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbaf447f-6c3a-4d23-8b1c-1f087f6af544")
 	)
 	(junction
-		(at 27.94 154.94)
+		(at 49.53 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0cd7ac9-e365-4771-9345-9fed593cd373")
@@ -11195,7 +11195,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4a5d99a8-6911-46be-82a4-85224f539cd3")
 		(property "Reference" "R19"
 			(at 180.34 33.02 90)
@@ -14360,7 +14360,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c4baefd1-8972-4bde-b543-ca02f2791b2e")
 		(property "Reference" "Q3"
@@ -15986,7 +15986,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 20.32 158.75 0)
+		(at 41.91 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15997,7 +15997,7 @@
 		(fields_autoplaced yes)
 		(uuid "47f9b247-9f10-4c23-bb1d-5ad172fe2fb0")
 		(property "Reference" "R21"
-			(at 22.86 162.56 0)
+			(at 44.45 162.56 0)
 
 			(show_name no)
 			(do_not_autoplace no)
@@ -16008,7 +16008,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 22.86 154.94 0)
+			(at 44.45 154.94 0)
 
 			(hide yes)
 			(show_name no)
@@ -16020,7 +16020,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 20.32 158.75 0)
+			(at 41.91 158.75 0)
 
 			(hide yes)
 			(show_name no)
@@ -16032,7 +16032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 20.32 158.75 0)
+			(at 41.91 158.75 0)
 
 			(hide yes)
 			(show_name no)
@@ -16044,7 +16044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 158.75 0)
+			(at 41.91 158.75 0)
 
 			(hide yes)
 			(show_name no)
@@ -16072,7 +16072,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 27.94 158.75 0)
+		(at 49.53 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16083,7 +16083,7 @@
 		(fields_autoplaced yes)
 		(uuid "ef647f26-e3de-4fa6-9bce-3b1090ec3098")
 		(property "Reference" "R22"
-			(at 30.48 162.56 0)
+			(at 52.07 162.56 0)
 
 			(show_name no)
 			(do_not_autoplace no)
@@ -16094,7 +16094,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 30.48 154.94 0)
+			(at 52.07 154.94 0)
 
 			(hide yes)
 			(show_name no)
@@ -16106,7 +16106,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 27.94 158.75 0)
+			(at 49.53 158.75 0)
 
 			(hide yes)
 			(show_name no)
@@ -16118,7 +16118,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 158.75 0)
+			(at 49.53 158.75 0)
 
 			(hide yes)
 			(show_name no)
@@ -16130,7 +16130,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 158.75 0)
+			(at 49.53 158.75 0)
 
 			(hide yes)
 			(show_name no)
@@ -16158,7 +16158,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 20.32 152.4 0)
+		(at 41.91 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16169,7 +16169,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b2dbdc0-303e-4679-96a2-c9da6770373d")
 		(property "Reference" "#PWR0116"
-			(at 20.32 156.21 0)
+			(at 41.91 156.21 0)
 
 			(hide yes)
 			(show_name no)
@@ -16181,7 +16181,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 20.32 147.32 0)
+			(at 41.91 147.32 0)
 
 			(hide yes)
 			(show_name no)
@@ -16193,7 +16193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 152.4 0)
+			(at 41.91 152.4 0)
 
 			(hide yes)
 			(show_name no)
@@ -16205,7 +16205,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 152.4 0)
+			(at 41.91 152.4 0)
 
 			(hide yes)
 			(show_name no)
@@ -16217,7 +16217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 152.4 0)
+			(at 41.91 152.4 0)
 
 			(hide yes)
 			(show_name no)
@@ -16249,7 +16249,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e67248bc-2107-4c50-8df0-e0822128ab41")
 		(property "Reference" "#PWR0118"
@@ -16333,7 +16333,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2066dab7-cc10-41f1-a8f4-fa796a98482f")
 		(property "Reference" "#PWR0120"
