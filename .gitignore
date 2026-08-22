@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# KiCad lock files (auto-created while a project is open in the editor)
+~*.lck
+
+# KiCad autosave / local state
+_autosave-*
+*.kicad_prl
+fp-info-cache
+
+# KiCad auto-backup archives (any revision directory)
+*-backups/
+
+# Scratch exports (netlists, plots, gerbers) — regenerated, not tracked
+*.net
+export/
