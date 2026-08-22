@@ -9845,7 +9845,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 162.56) (xy 33.02 162.56)
+			(xy 29.21 162.56) (xy 24.13 162.56)
 		)
 		(stroke
 			(width 0)
@@ -17223,7 +17223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 162.56 0)
+		(at 24.13 162.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17258,7 +17258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 162.56 0)
+			(at 24.13 162.56 0)
 
 			(hide yes)
 			(show_name no)
@@ -17270,7 +17270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 162.56 0)
+			(at 24.13 162.56 0)
 
 			(hide yes)
 			(show_name no)
@@ -17282,7 +17282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 162.56 0)
+			(at 24.13 162.56 0)
 
 			(hide yes)
 			(show_name no)
