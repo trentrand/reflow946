@@ -15,3 +15,4 @@ fp-info-cache
 # Scratch exports (netlists, plots, gerbers) — regenerated, not tracked
 *.net
 export/
+schematic_preview.pdf
