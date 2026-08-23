@@ -7209,16 +7209,14 @@
 		(uuid "efc8dc72-a75d-4668-8895-5725c40f9589")
 	)
 	(junction
-		(at 92.71 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8d68b31-42fe-4caa-9502-c6045087e879")
-	)
-	(junction
 		(at 158.75 110.4872)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb96ed0d-b2f7-4fdd-8c03-9a56fae6791a")
+	)
+	(no_connect
+		(at 80.01 123.19)
+		(uuid "0eaeccef-9467-404e-b3a0-f3b512c59ac3")
 	)
 	(no_connect
 		(at 191.77 76.2)
@@ -7235,6 +7233,10 @@
 	(no_connect
 		(at 176.53 38.1)
 		(uuid "832b419d-d070-4da1-98d9-7b06d9752297")
+	)
+	(no_connect
+		(at 80.01 113.03)
+		(uuid "83ed075a-12df-4543-8799-5667d1821525")
 	)
 	(no_connect
 		(at 191.77 63.5)
@@ -7361,16 +7363,6 @@
 			(type default)
 		)
 		(uuid "03b34f53-947a-41ee-a324-94cafa39255d")
-	)
-	(wire
-		(pts
-			(xy 85.09 118.11) (xy 80.01 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b9b262-0384-4ea8-91df-c8f8c8e7b5c4")
 	)
 	(polyline
 		(pts
@@ -8054,16 +8046,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 97.79 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "523ff00d-931a-48c2-93b5-98c9dcca1fe1")
-	)
-	(wire
-		(pts
 			(xy 222.25 50.8) (xy 222.25 55.88)
 		)
 		(stroke
@@ -8284,16 +8266,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 92.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aef9fcb-f240-41d6-9c6d-95ccfbd7b63a")
-	)
-	(wire
-		(pts
 			(xy 168.91 167.64) (xy 168.91 176.53)
 		)
 		(stroke
@@ -8351,16 +8323,6 @@
 			(type default)
 		)
 		(uuid "730323fe-58ec-4ff7-87db-0b61d167bc81")
-	)
-	(wire
-		(pts
-			(xy 97.79 119.38) (xy 93.98 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755f48d0-4da6-4176-a873-e45a6e05aeae")
 	)
 	(wire
 		(pts
@@ -8431,16 +8393,6 @@
 			(type default)
 		)
 		(uuid "7ec28216-74d9-4067-ae57-aa4f56666fd7")
-	)
-	(wire
-		(pts
-			(xy 97.79 102.87) (xy 92.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f452c3c-67d2-40b5-9810-db5bfa80fa48")
 	)
 	(wire
 		(pts
@@ -8844,6 +8796,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 123.19) (xy 80.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3be650d-02ce-40c2-8fd6-c25c89a47fa3")
+	)
+	(wire
+		(pts
 			(xy 199.39 60.96) (xy 207.01 60.96)
 		)
 		(stroke
@@ -9124,16 +9086,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 100.33) (xy 92.71 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2c63f6e-a159-4126-a07a-d7258d701cf7")
-	)
-	(wire
-		(pts
 			(xy 252.73 168.91) (xy 252.73 162.56)
 		)
 		(stroke
@@ -9151,16 +9103,6 @@
 			(type default)
 		)
 		(uuid "c587482c-50a0-4898-9858-211128fa83a5")
-	)
-	(wire
-		(pts
-			(xy 92.71 118.11) (xy 85.09 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6a4a96b-2830-487d-a051-cddeff0823f7")
 	)
 	(wire
 		(pts
@@ -9361,16 +9303,6 @@
 			(type default)
 		)
 		(uuid "dd56e4e8-2ec8-4196-8803-9f9b1e913b11")
-	)
-	(wire
-		(pts
-			(xy 92.71 102.87) (xy 92.71 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc4fd3c-3a39-4ac8-af75-56f971343871")
 	)
 	(wire
 		(pts
@@ -9621,26 +9553,6 @@
 			(type default)
 		)
 		(uuid "fd4debb0-e036-4c65-883d-91b38ac04c3b")
-	)
-	(wire
-		(pts
-			(xy 68.58 123.19) (xy 93.98 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe0295d8-1613-4644-87d2-b91a87709e15")
-	)
-	(wire
-		(pts
-			(xy 97.79 114.3) (xy 97.79 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa0b6c8-8925-48f1-8b5c-296e4c2b477d")
 	)
 	(label "TFT_DC"
 		(at 80.01 110.49 180)
@@ -11607,85 +11519,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 92.71 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47f9b247-9f10-4c23-bb1d-5ad172fe2fb0")
-		(property "Reference" "R21"
-			(at 88.9 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 88.646 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 92.71 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 92.71 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a4217e17-6bbc-449e-b819-711ef3e3b2c3")
-		)
-		(pin "2"
-			(uuid "3e0cd1d3-01fc-49e3-ae38-9df6a0907827")
-		)
-		(instances
-			(project "reflow946"
-				(path "/e06aa885-daae-4bc8-aba0-4517a19e0ae6"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 180.34 38.1 90)
 		(unit 1)
 		(body_style 1)
@@ -12601,85 +12434,6 @@
 			(project "reflow946"
 				(path "/e06aa885-daae-4bc8-aba0-4517a19e0ae6"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b2dbdc0-303e-4679-96a2-c9da6770373d")
-		(property "Reference" "#PWR0116"
-			(at 92.71 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 92.71 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 92.71 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25c76b71-1ca4-461d-95c2-6958145c4e7f")
-		)
-		(instances
-			(project "reflow946"
-				(path "/e06aa885-daae-4bc8-aba0-4517a19e0ae6"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -16730,85 +16484,6 @@
 			(project "reflow946"
 				(path "/e06aa885-daae-4bc8-aba0-4517a19e0ae6"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 110.49 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ef647f26-e3de-4fa6-9bce-3b1090ec3098")
-		(property "Reference" "R22"
-			(at 101.854 110.744 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 102.108 113.284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95bc494c-9f19-4567-a40b-3865db6983bd")
-		)
-		(pin "2"
-			(uuid "920c38c5-a8bc-443e-a430-f1d52f590aa0")
-		)
-		(instances
-			(project "reflow946"
-				(path "/e06aa885-daae-4bc8-aba0-4517a19e0ae6"
-					(reference "R22")
 					(unit 1)
 				)
 			)
