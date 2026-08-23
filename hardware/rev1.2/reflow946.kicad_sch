@@ -7474,7 +7474,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 83.82) (xy 106.68 118.11)
+			(xy 106.68 77.47) (xy 106.68 118.11)
 		)
 		(stroke
 			(width 0)
@@ -7764,7 +7764,7 @@
 	)
 	(bus
 		(pts
-			(xy 121.92 73.66) (xy 121.92 83.82)
+			(xy 121.92 73.66) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7944,7 +7944,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 162.56) (xy 205.74 162.56)
+			(xy 196.85 162.56) (xy 205.74 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8714,7 +8714,7 @@
 	)
 	(bus
 		(pts
-			(xy 106.68 83.82) (xy 121.92 83.82)
+			(xy 106.68 77.47) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9354,7 +9354,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 138.43) (xy 68.58 138.43)
+			(xy 196.85 138.43) (xy 68.58 138.43)
 		)
 		(stroke
 			(width 0)
@@ -9404,7 +9404,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 138.43) (xy 194.31 162.56)
+			(xy 196.85 138.43) (xy 196.85 162.56)
 		)
 		(stroke
 			(width 0)
@@ -11627,8 +11627,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 95.25 106.68 0)
-			(hide yes)
+			(at 88.646 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16748,7 +16747,7 @@
 		(dnp no)
 		(uuid "ef647f26-e3de-4fa6-9bce-3b1090ec3098")
 		(property "Reference" "R22"
-			(at 101.346 110.49 0)
+			(at 101.854 110.744 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16758,8 +16757,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 100.33 106.68 0)
-			(hide yes)
+			(at 102.108 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
