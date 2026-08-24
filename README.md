@@ -35,15 +35,17 @@ The controller is based on a ESP32 module with an IPEX antenna. Since the metal 
 
 Changes by Trent Rand (Randware), relative to upstream rev 1.2:
 
-- Pathfinder revision (rev 2): 3-digit 7-segment display (`DS1`, DNP) replaced by a
-  1.47" IPS TFT (ST7789V3, 172x320) attached through pogo/header interface `J6`:
-  3V3 / GND / CS(IO23) / DC(IO16) / RST(IO13) / SCK(IO18) / MOSI(IO19) / BLK(IO5).
-  Former segment-drive GPIOs were repurposed; digit transistor Q3 + R19 are DNP.
+- Pathfinder revision (rev 2): 3-digit 7-segment display (`DS1`) replaced by a
+  1.47" IPS TFT (ST7789V3, 172x320) with two parallel interfaces:
+  `J6` FH12-8S-0.5SH FPC connector (v2 mounting path) and `J9` 2.54mm breakout
+  header (bench bring-up). Signals ride the former segment-drive GPIOs:
+  BL=dp(IO5) CS=f(IO23) DC=d(IO16) RES=g(IO13) SDA=c(IO19) SCL=d2(IO18).
+  One display may be attached at a time (shared bus).
 - Second MAX31855KASA (`U6`) with screw terminal `J8` (`EXT_TC`) for top-of-PCB
   thermocouple profiling; shares CLK/MISO with the primary sensor, CS on IO4.
-- Breakout `J7` (CLK / MISO / CS_EXT / TC_ADC / 3V3 / GND) for probe-amplifier
-  experiments (MAX31856 or analog AD8495 on SENSOR_VP).
-- I2C expansion bus retained on IO17/IO22 with R21/R22 pull-ups.
+- Breakout `J7` (CLK / MISO / CS_EXT / TC_ADC / 3V3 / GND): digital probe amps
+  on the shared SPI bus, or analog amplifiers (AD8495) on TC_ADC = SENSOR_VP.
+- IO17/IO22 left as spare GPIOs (I2C-capable; add pull-ups with the device).
 
 Upstream hardware errata and revision notes are preserved in [`hardware/README.md`](hardware/README.md).
 

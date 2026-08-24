@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 2.2,
+          "width": 1.8
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -279,7 +279,15 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": []
+    "viewports": [],
+    "rule_severities": {
+      "silk_overlap": "warning",
+      "silk_over_copper": "warning",
+      "silk_edge_clearance": "warning",
+      "text_height": "warning",
+      "lib_footprint_mismatch": "warning",
+      "starved_thermal": "warning"
+    }
   },
   "boards": [],
   "component_class_settings": {
@@ -638,7 +646,7 @@
       "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "R\u00e9f\u00e9rence"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
