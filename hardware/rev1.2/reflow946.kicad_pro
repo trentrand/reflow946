@@ -227,7 +227,8 @@
         0.8,
         0.9,
         1.0,
-        2.0
+        2.0,
+        3.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -279,15 +280,7 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": [],
-    "rule_severities": {
-      "silk_overlap": "warning",
-      "silk_over_copper": "warning",
-      "silk_edge_clearance": "warning",
-      "text_height": "warning",
-      "lib_footprint_mismatch": "warning",
-      "starved_thermal": "warning"
-    }
+    "viewports": []
   },
   "boards": [],
   "component_class_settings": {
@@ -574,7 +567,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../rev2b/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -646,7 +639,7 @@
       "include_excluded_from_bom": false,
       "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "R\u00e9f\u00e9rence"
+      "sort_field": "Référence"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
